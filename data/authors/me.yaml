@@ -1,116 +1,114 @@
 schema: hugoblox/author/v1
-slug: me
+slug: admin
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Zhaoqing Xu
+  given: Zhaoqing
+  family: Xu
+  alternate: 许钊箐
+  pronunciation: Zhao-Ching Hsu
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - PhD Candidate
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "📐"
+role: PhD Candidate, Instructor
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a doctoral student in computational mathematics at the University of South Carolina. 
+  My research is centered on numerical analysis, with a specific focus on developing efficient and structure-preserving schemes for Partial Differential Equations (PDEs). 
+  Currently, I serve as an Instructor of Record at UofSC, where I enjoy bridging the gap between mathematical theory and numerical implementation.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of South Carolina
+    url: https://sc.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:zhaoqing@email.sc.edu # 示例邮箱，请按需修改
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://github.com/PearsonXu
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/ # 请补充你的 Scholar ID
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/ # 请补充你的 LinkedIn
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Numerical Analysis
+  - Partial Differential Equations (PDEs)
+  - Structure-preserving Numerical Schemes
+  - Computational Fluid Dynamics
+  - Mathematical Modeling
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Computational Mathematics
+    institution: University of South Carolina
+    start: 2021-08-01
+    end: 2027-05-31 # 预计毕业时间
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Focusing on numerical solutions for Phase-field models and particle dynamics.
+  - degree: MS/BS in Mathematics # 请根据实际硕士/本科经历修改
+    institution: Southern University of Science and Technology (SUSTech)
+    start: 2017-09-01
+    end: 2021-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Instructor of Record
+    org: University of South Carolina
+    start: 2023-01-01 # 包含 Calculus for Business, Precalculus 等
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      * **MATH 122**: Calculus for Business and Social Sciences (Spring 2026, Spring 2023).
+      * **MATH 115**: Precalculus.
+      * **Finite Mathematics** (Fall 2024).
+  - role: Research Assistant
+    org: Southern University of Science and Technology (SUSTech)
+    start: 2023-08-01
+    end: 2025-05-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Focusing on mathematical modeling, numerical simulation, and manuscript revisions.
+  - role: Teaching Assistant
+    org: University of South Carolina
+    start: 2021-08-01
+    end: 2022-12-31
+    summary: |
+      * **Calculus I & II**: Utilized **Python** for numerical demonstrations in class.
+  - role: Teaching Assistant
+    org: SUSTech
+    start: 2018-09-01
+    end: 2021-06-30
+    summary: |
+      * **Numerical Solutions of PDEs**: Projects related to the Allen-Cahn Equation.
+      * **Calculus A I & II**.
+      * **Grader** for Partial Differential Equations course.
 
 skills:
   - name: Technical Skills
     items:
+      - label: MATLAB
+        level: 5
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
+      - label: LaTeX
+        level: 5
+      - label: Numerical Simulation
+        level: 5
+  - name: Programming
     items:
-      - label: Academic Writing
+      - label: Numerical PDEs
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+      - label: Data Visualization
         level: 4
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Outstanding Student Award (2nd Place)
+    awarder: Summer School on Computational Mathematics, Xiangtan University
+    date: "2024-08-01"
+    summary: Recognized for excellence in numerical analysis and group projects.

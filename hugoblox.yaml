@@ -1,8 +1,40 @@
+# Hugo Blox Builder 配置
+# 针对赵庆旭 (Zhaoqing Xu) 的学术主页定制
+
 build:
   hugo_version: '0.154.5'
+
 deploy:
-  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
+  # 确保这里设置为 github-pages
   host: 'github-pages'
+
 template:
   id: "academic-cv"
   name: "Academic CV"
+
+# 增加以下功能配置，这对计算数学研究至关重要
+features:
+  # 开启数学公式渲染 (LaTeX)
+  math:
+    enable: true
+  
+  # 开启代码高亮 (展示 Python/MATLAB 算法)
+  syntax_highlighter:
+    enable: true
+    theme: 'dracula' # 推荐深色代码主题，可读性强
+
+  # 开启搜索功能
+  search:
+    provider: 'wowchemy'
+
+
+  outputFormats:
+  revealjs:
+    name: Reveal.js
+    baseName: index
+    mediaType: text/html
+    isHTML: true
+    
+  # 开启隐私保护
+  privacy_pack:
+    enable: true
