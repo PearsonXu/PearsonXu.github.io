@@ -1,4 +1,4 @@
-# [你的站点名称 / Your Name] · Personal Website
+# Zhaoqing Xu· Personal Website
 
 这是我的个人主页与博客，基于 **Hugo** 构建，用于展示简介、研究/项目、博客文章与照片等内容。
 
