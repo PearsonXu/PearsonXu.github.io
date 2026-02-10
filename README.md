@@ -3,7 +3,7 @@
 这是我的个人主页与博客，基于 **Hugo** 构建，用于展示简介、研究/项目、博客文章与照片等内容。
 
 - 在线访问：**[https://yourdomain.com](https://yourdomain.com)**（或 GitHub Pages 地址）
-- 备用网址（可选）：[https://yourname.github.io](https://yourname.github.io)
+- 备用网址（可选）：[https://PearsonXu.github.io](https://yourname.github.io)
 - 站点截图（可选）：`./static/preview.png`
 
 ---
